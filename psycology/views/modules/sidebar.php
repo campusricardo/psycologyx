@@ -26,7 +26,16 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
             <li class="nav-item">
-            <a href="/users" class="nav-link">
+            <a href="/ArTeM02-045/psycology/psycology/" class="nav-link active">
+              <i class="nav-icon far fa-user"></i>
+              <p>
+                Home
+              </p>
+            </a>
+          </li>
+            
+               <li class="nav-item">
+            <a href="/ArTeM02-045/psycology/psycology/users" class="nav-link <?php if ($routesArray[4] == "users"): ?> active <?php endif ?>">
               <i class="nav-icon far fa-user"></i>
               <p>
                 Users
@@ -35,7 +44,7 @@
           </li>
 
           <li class="nav-item">
-            <a href="/users" class="nav-link">
+            <a href="/ArTeM02-045/psycology/psycology/clinicHistory" class="nav-link <?php if ($routesArray[4] == "clinicHistory"): ?> active <?php endif ?>">
               <i class="nav-icon far fa-user"></i>
               <p>
                 Clinic History
@@ -44,7 +53,7 @@
           </li>
 
           <li class="nav-item">
-            <a href="/users" class="nav-link">
+            <a href="/ArTeM02-045/psycology/psycology/interviews" class="nav-link <?php if ($routesArray[4] == "interviews"): ?> active <?php endif ?>">
               <i class="nav-icon far fa-user"></i>
               <p>
                 Interviews
@@ -53,7 +62,7 @@
           </li>
 
           <li class="nav-item">
-            <a href="/psychologists" class="nav-link">
+            <a href="/ArTeM02-045/psycology/psycology/psychologists" class="nav-link <?php if ($routesArray[4] == "psychologists"): ?> active <?php endif ?>">
               <i class="nav-icon far fa-user"></i>
               <p>
               Psychologists
@@ -62,7 +71,7 @@
           </li>
             
           <li class="nav-item">
-            <a href="/treatment" class="nav-link">
+            <a href="/ArTeM02-045/psycology/psycology/treatment" class="nav-link <?php if ($routesArray[4] == "treatment"): ?> active <?php endif ?>">
               <i class="nav-icon far fa-user"></i>
               <p>
                 Treatment
@@ -77,6 +86,26 @@
                 <i class="fas fa-angle-left right"></i>
               </p>
             </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="../mailbox/mailbox.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Inbox</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../mailbox/compose.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Compose</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="../mailbox/read-mail.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Read</p>
+                </a>
+              </li>
+            </ul>
             </li>
         </ul>
       </nav>
